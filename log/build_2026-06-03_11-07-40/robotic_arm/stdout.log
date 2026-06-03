@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/achy/ros2/ros2_arm/build/robotic_arm
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/ament_index/resource_index/package_run_dependencies/robotic_arm
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/ament_index/resource_index/parent_prefix_path/robotic_arm
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/environment/path.sh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/environment/path.dsv
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/local_setup.bash
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/local_setup.sh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/local_setup.zsh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/local_setup.dsv
+-- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/package.dsv
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/ament_index/resource_index/packages/robotic_arm
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig.cmake
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig-version.cmake
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm/share/robotic_arm/package.xml

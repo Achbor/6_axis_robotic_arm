@@ -1,0 +1,8 @@
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kvoid ArmGripperLoopController::[01;32m[KsendGripperCommand[m[K(double)[m[K’:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:113:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct control_msgs::action::GripperCommand_Goal_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcommanf[m[K’; did you mean ‘[01m[Kcommand[m[K’?
+  113 |                 goal_msg.[01;31m[Kcommanf[m[K.max_effort = 5.0;
+      |                          [01;31m[K^~~~~~~[m[K
+      |                          [32m[Kcommand[m[K
+gmake[2]: *** [CMakeFiles/arm_gripper_loop_controller.dir/build.make:76: CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_gripper_loop_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

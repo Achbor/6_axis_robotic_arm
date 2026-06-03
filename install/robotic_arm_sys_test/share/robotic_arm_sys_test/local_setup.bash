@@ -1,0 +1,1 @@
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/ament_cmake_environment_hooks/local_setup.bash

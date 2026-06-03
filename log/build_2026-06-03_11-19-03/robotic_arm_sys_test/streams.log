@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test -- -j8 -l8
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o[0m
+[2.209s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kvoid ArmGripperLoopController::[01;32m[KsendGripperCommand[m[K(double)[m[K’:
+[2.209s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:113:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct control_msgs::action::GripperCommand_Goal_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcommanf[m[K’; did you mean ‘[01m[Kcommand[m[K’?
+[2.209s]   113 |                 goal_msg.[01;31m[Kcommanf[m[K.max_effort = 5.0;
+[2.209s]       |                          [01;31m[K^~~~~~~[m[K
+[2.209s]       |                          [32m[Kcommand[m[K
+[3.946s] gmake[2]: *** [CMakeFiles/arm_gripper_loop_controller.dir/build.make:76: CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o] Error 1
+[3.946s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_gripper_loop_controller.dir/all] Error 2
+[3.946s] gmake: *** [Makefile:146: all] Error 2
+[3.950s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test -- -j8 -l8

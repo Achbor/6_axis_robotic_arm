@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test -- -j8 -l8
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o[0m
+[4.969s] [100%] [32m[1mLinking CXX executable arm_gripper_loop_controller[0m
+[5.194s] [100%] Built target arm_gripper_loop_controller
+[5.206s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test -- -j8 -l8
+[5.207s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test
+[5.217s] -- Install configuration: ""
+[5.218s] -- Execute custom install script
+[5.218s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/scripts/arm_gripper_loop_controller.py
+[5.219s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp
+[5.219s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/lib/robotic_arm_sys_test/arm_gripper_loop_controller
+[5.231s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/lib/robotic_arm_sys_test/arm_gripper_loop_controller.py
+[5.231s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/ament_index/resource_index/package_run_dependencies/robotic_arm_sys_test
+[5.231s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/ament_index/resource_index/parent_prefix_path/robotic_arm_sys_test
+[5.231s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/environment/ament_prefix_path.sh
+[5.231s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/environment/ament_prefix_path.dsv
+[5.232s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/environment/path.sh
+[5.232s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/environment/path.dsv
+[5.232s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/local_setup.bash
+[5.232s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/local_setup.sh
+[5.232s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/local_setup.zsh
+[5.232s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/local_setup.dsv
+[5.232s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/package.dsv
+[5.243s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/ament_index/resource_index/packages/robotic_arm_sys_test
+[5.243s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/cmake/robotic_arm_sys_testConfig.cmake
+[5.243s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/cmake/robotic_arm_sys_testConfig-version.cmake
+[5.244s] -- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_sys_test/share/robotic_arm_sys_test/package.xml
+[5.245s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test

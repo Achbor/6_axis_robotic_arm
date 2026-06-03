@@ -1,0 +1,9 @@
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/uninstall.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/robotic_arm_bringup_uninstall.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/test.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/edit_cache.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/rebuild_cache.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/list_install_components.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/install.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/install/local.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_bringup/CMakeFiles/install/strip.dir

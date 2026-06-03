@@ -1,0 +1,19 @@
+[0.020s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test -- -j8 -l8
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o[0m
+[2.009s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In constructor ‘[01m[KArmGripperLoopController::[01;32m[KArmGripperLoopController[m[K()[m[K’:
+[2.010s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:85:28:[m[K [01;31m[Kerror: [m[K‘[01m[KArmGripperLoopConrtoller[m[K’ has not been declared
+[2.010s]    85 |                 std::bind(&[01;31m[KArmGripperLoopConrtoller[m[K::controlLoopCallback, this)
+[2.010s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.010s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kvoid ArmGripperLoopController::[01;32m[KsendArmCommand[m[K(const std::vector<double, std::allocator<double> >&)[m[K’:
+[2.010s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:101:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::_points_type = class std::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpuch_back[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+[2.010s]   101 |                 goal_msg.trajectory.points.[01;31m[Kpuch_back[m[K(point);
+[2.010s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[2.010s]       |                                            [32m[Kpush_back[m[K
+[2.013s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kvoid ArmGripperLoopController::[01;32m[KsendGripperCommand[m[K(double)[m[K’:
+[2.013s] [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:111:33:[m[K [01;31m[Kerror: [m[K‘[01m[KGripperCommmand[m[K’ has not been declared
+[2.013s]   111 |                 auto goal_msg = [01;31m[KGripperCommmand[m[K::Goal();
+[2.013s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.890s] gmake[2]: *** [CMakeFiles/arm_gripper_loop_controller.dir/build.make:76: CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o] Error 1
+[2.890s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_gripper_loop_controller.dir/all] Error 2
+[2.890s] gmake: *** [Makefile:146: all] Error 2
+[2.893s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_sys_test -- -j8 -l8

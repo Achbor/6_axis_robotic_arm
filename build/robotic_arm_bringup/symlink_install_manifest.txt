@@ -1,0 +1,16 @@
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/scripts/robotic_arm_280_gazebo.sh
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/ament_index/resource_index/package_run_dependencies/robotic_arm_bringup
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/ament_index/resource_index/parent_prefix_path/robotic_arm_bringup
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/ament_prefix_path.sh
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/ament_prefix_path.dsv
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/path.sh
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/environment/path.dsv
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.bash
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.sh
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.zsh
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/local_setup.dsv
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/package.dsv
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/ament_index/resource_index/packages/robotic_arm_bringup
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/cmake/robotic_arm_bringupConfig.cmake
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/cmake/robotic_arm_bringupConfig-version.cmake
+/home/achy/ros2/ros2_arm/install/robotic_arm_bringup/share/robotic_arm_bringup/package.xml

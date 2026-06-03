@@ -1,0 +1,51 @@
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:47:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KArmGripperLoopController[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   47 |         [01;31m[KArmGripperLoopController[m[K() : Node("arm_gripper_loop_controller")
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kint ArnGripperLoopController::[01;32m[KArmGripperLoopController[m[K()[m[K’:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:47:38:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   47 |         ArmGripperLoopController() : [01;31m[KNode[m[K("arm_gripper_loop_controller")
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:64:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   64 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:68:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:85:28:[m[K [01;31m[Kerror: [m[K‘[01m[KArmGripperLoopConrtoller[m[K’ has not been declared
+   85 |                 std::bind(&[01;31m[KArmGripperLoopConrtoller[m[K::controlLoopCallback, this)
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kvoid ArnGripperLoopController::[01;32m[KsendArmCommand[m[K(const std::vector<double, std::allocator<double> >&)[m[K’:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:101:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::_points_type = class std::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpuch_back[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+  101 |                 goal_msg.trajectory.points.[01;31m[Kpuch_back[m[K(point);
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                            [32m[Kpush_back[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In member function ‘[01m[Kvoid ArnGripperLoopController::[01;32m[KsendGripperCommand[m[K(double)[m[K’:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:111:33:[m[K [01;31m[Kerror: [m[K‘[01m[KGripperCommmand[m[K’ has not been declared
+  111 |                 auto goal_msg = [01;31m[KGripperCommmand[m[K::Goal();
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:181:34:[m[K [01;31m[Kerror: [m[K‘[01m[KArmGripperLoopController[m[K’ was not declared in this scope; did you mean ‘[01m[KArnGripperLoopController[m[K’?
+  181 |     auto node = std::make_shared<[01;31m[KArmGripperLoopController[m[K>();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[KArnGripperLoopController[m[K
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:181:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  181 |     auto node = [01;31m[Kstd::make_shared<ArmGripperLoopController>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:14[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:181:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  181 |     auto node = [01;31m[Kstd::make_shared<ArmGripperLoopController>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:18[m[K:
+[01m[K/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/src/arm_gripper_loop_controller.cpp:186:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 |         [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Exception caught: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arm_gripper_loop_controller.dir/build.make:76: CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_gripper_loop_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

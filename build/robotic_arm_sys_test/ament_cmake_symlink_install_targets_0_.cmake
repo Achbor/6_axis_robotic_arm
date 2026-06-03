@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/arm_gripper_loop_controller" "TARGETS" "arm_gripper_loop_controller" "DESTINATION" "lib/robotic_arm_sys_test")

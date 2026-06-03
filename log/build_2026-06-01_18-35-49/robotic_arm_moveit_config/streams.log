@@ -1,0 +1,44 @@
+[0.044s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config
+[0.351s] -- The C compiler identification is GNU 13.3.0
+[0.680s] -- The CXX compiler identification is GNU 13.3.0
+[0.771s] -- Detecting C compiler ABI info
+[1.099s] -- Detecting C compiler ABI info - done
+[1.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.117s] -- Detecting C compile features
+[1.118s] -- Detecting C compile features - done
+[1.147s] -- Detecting CXX compiler ABI info
+[1.495s] -- Detecting CXX compiler ABI info - done
+[1.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.506s] -- Detecting CXX compile features
+[1.506s] -- Detecting CXX compile features - done
+[1.530s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.966s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.271s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.555s] -- Added test 'lint_cmake' to check CMake code style
+[2.564s] -- Added test 'xmllint' to check XML markup files
+[2.569s] -- Configuring done (2.5s)
+[2.577s] -- Generating done (0.0s)
+[2.580s] -- Build files have been written to: /home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config
+[2.616s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config
+[2.617s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config -- -j8 -l8
+[2.781s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config -- -j8 -l8
+[2.783s] Invoking command in '/home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config
+[2.814s] -- Install configuration: ""
+[2.814s] -- Execute custom install script
+[2.820s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/robotic_arm_moveit_config
+[2.847s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/robotic_arm_moveit_config
+[2.870s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/ament_prefix_path.sh
+[2.893s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/ament_prefix_path.dsv
+[2.937s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/path.sh
+[2.963s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/environment/path.dsv
+[2.987s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.bash
+[3.020s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.sh
+[3.042s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.zsh
+[3.067s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/local_setup.dsv
+[3.095s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/package.dsv
+[3.126s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/ament_index/resource_index/packages/robotic_arm_moveit_config
+[3.158s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/cmake/robotic_arm_moveit_configConfig.cmake
+[3.185s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/cmake/robotic_arm_moveit_configConfig-version.cmake
+[3.212s] -- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_moveit_config/share/robotic_arm_moveit_config/package.xml
+[3.272s] Invoked command in '/home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/achy/ros2/ros2_arm/build/robotic_arm_moveit_config

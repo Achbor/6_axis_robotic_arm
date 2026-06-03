@@ -1,0 +1,1 @@
+/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_bringup/scripts/robotic_arm_280_gazebo.sh

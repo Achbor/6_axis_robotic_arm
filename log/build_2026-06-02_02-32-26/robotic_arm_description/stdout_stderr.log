@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/launch/robot_state_publisher.launch.py
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/control/robotic_arm_280_ros2_control.urdf.xacro
+-- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/mech/g_shape_base_v2_0.urdf.xacro
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/urdf/robots/robotic_arm_280.urdf.xacro
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/ament_index/resource_index/package_run_dependencies/robotic_arm_description
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/ament_index/resource_index/parent_prefix_path/robotic_arm_description
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.sh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/environment/path.dsv
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.bash
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.sh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.zsh
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/local_setup.dsv
+-- Symlinking: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/package.dsv
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/ament_index/resource_index/packages/robotic_arm_description
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig.cmake
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/cmake/robotic_arm_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/achy/ros2/ros2_arm/install/robotic_arm_description/share/robotic_arm_description/package.xml

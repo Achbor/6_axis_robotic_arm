@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e74bdb9582fe561f5e66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robotic_arm_sys_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_gripper_loop_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_gripper_loop_controller-5d2948c6b8978d337459.json",
+					"name" : "arm_gripper_loop_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotic_arm_sys_test_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotic_arm_sys_test_uninstall-013f74912f3b19dece4b.json",
+					"name" : "robotic_arm_sys_test_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c2a3f5a4c7845b649377.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test",
+		"source" : "/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

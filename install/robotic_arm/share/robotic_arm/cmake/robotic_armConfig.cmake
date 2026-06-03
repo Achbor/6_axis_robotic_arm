@@ -1,0 +1,1 @@
+/home/achy/ros2/ros2_arm/build/robotic_arm/ament_cmake_core/robotic_armConfig.cmake

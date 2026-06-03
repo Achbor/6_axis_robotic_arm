@@ -1,0 +1,2 @@
+source;share/robotic_arm_sys_test/environment/ament_prefix_path.sh
+source;share/robotic_arm_sys_test/environment/path.sh

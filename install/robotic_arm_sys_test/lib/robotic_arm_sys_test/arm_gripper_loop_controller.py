@@ -1,0 +1,1 @@
+/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_sys_test/scripts/arm_gripper_loop_controller.py

@@ -1,0 +1,10 @@
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/uninstall.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/robotic_arm_sys_test_uninstall.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/arm_gripper_loop_controller.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/test.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/edit_cache.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/rebuild_cache.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/list_install_components.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/install.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/install/local.dir
+/home/achy/ros2/ros2_arm/build/robotic_arm_sys_test/CMakeFiles/install/strip.dir

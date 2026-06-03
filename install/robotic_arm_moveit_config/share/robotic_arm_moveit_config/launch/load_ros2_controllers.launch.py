@@ -1,0 +1,1 @@
+/home/achy/ros2/ros2_arm/src/robotic_arm/robotic_arm_moveit_config/launch/load_ros2_controllers.launch.py
