@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Launch RViz visualization for the mycobot robot.
+Launch RViz visualization for the robtic_arm robot.
 
 This launch file sets up the complete visualization environment for the mycobot robot,
 including robot state publisher, joint state publisher, and RViz2. It handles loading
