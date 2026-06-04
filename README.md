@@ -1,4 +1,5 @@
 **OVERVIEW**
+
 A simple first stage Rootic Arm with 6 Degrees Of Freedom (6DOF). The pakcage include a Gazebo simulation and an RViz vizualization of the Robot
 
 **LAUNCH PROCESS**
