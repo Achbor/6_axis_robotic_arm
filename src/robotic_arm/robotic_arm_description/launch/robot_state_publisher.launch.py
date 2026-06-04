@@ -100,7 +100,7 @@ ARGUMENTS = [
 
 
 def generate_launch_description():
-    """Generate the launch description for the mycobot robot visualization.
+    """Generate the launch description for the robotic_arm  visualization.
 
     This function sets up all necessary nodes and parameters for visualizing
     the mycobot robot in RViz, including:
